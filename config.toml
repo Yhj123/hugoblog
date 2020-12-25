@@ -5,7 +5,7 @@ title = "hello"
 
 [params]
   author = "yhj"
-  description = "yhj's blog"
+  description = "人不敬我，是我无才， 我不敬人，是我无德， 人不容我，是我无能， 我不容人，是我无量， 人不助我，是我无为， 我不助人，是我无善。"
 
 [[menu.main]]
   identifier = "tags"
