@@ -1,4 +1,18 @@
 baseURL = "https://yhj123.github.io/hugoblog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "M10c"
+title = "hello"
+
+[params]
+  author = "yhj"
+  description = "yhj's blog"
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+
+[[params.social]]
+  name = "github"
+  url = "https://zhuanlan.zhihu.com/p/105021100?utm_source=weibo"
+
