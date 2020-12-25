@@ -13,7 +13,7 @@
       <pubDate>Fri, 25 Dec 2020 15:35:05 +0800</pubDate>
       
       <guid>https://yhj123.github.io/hugoblog/today/my-first-post/</guid>
-      <description>周五笔记:  常见动态规划类型  坐标型动态规划 序列型动态规划 划分型动态规划 区间型动态规划 背包型动态规划 最长序列型动态规划 博弈型动态规划 综合性动态规划   动态规划题型:  计数  有多少种方式走到右下角 有多少种方法选出k个数使得和为sum   求最大最小值  从左上角走到右下角路径的最大数字和 最长上升子序列长度   求存在性  取石子游戏,先手是否必胜 能不能选出k个数使得和是sum     动态规划思路:  确定状态(两个意识):  最后一步 子问题   转移方程 初始条件和边界情况 计算顺序   动态规划例题:  coin change Unique Paths Jump Game Maximum Product Subarray    </description>
+      <description>周五笔记:  常见动态规划类型  坐标型动态规划 序列型动态规划 划分型动态规划 区间型动态规划 背包型动态规划 最长序列型动态规划 博弈型动态规划 综合性动态规划   动态规划题型:  计数  有多少种方式走到右下角 有多少种方法选出k个数使得和为sum   求最大最小值  从左上角走到右下角路径的最大数字和 最长上升子序列长度   求存在性  取石子游戏,先手是否必胜 能不能选出k个数使得和是sum     动态规划思路:  确定状态(两个意识):  最后一步 子问题   转移方程 初始条件和边界情况 计算顺序   动态规划例题:  coin change Unique Paths Jump Game Maximum Product Subarray   Maximum Product Subarray  class Solution { public: int maxProduct(vector&amp;lt;int&amp;gt;&amp;amp; nums) { vector &amp;lt;int&amp;gt; maxF(nums), minF(nums); for (int i = 1; i &amp;lt; nums.</description>
     </item>
     
     <item>
