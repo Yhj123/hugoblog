@@ -6,7 +6,16 @@
     <description>Recent content in Oneweeks on hello</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Dec 2020 00:36:28 +0800</lastBuildDate><atom:link href="https://yhj123.github.io/hugoblog/oneweek/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Dec 2020 10:48:10 +0800</lastBuildDate><atom:link href="https://yhj123.github.io/hugoblog/oneweek/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KMP、BM、KR、Sunday算法</title>
+      <link>https://yhj123.github.io/hugoblog/oneweek/sunday/</link>
+      <pubDate>Sun, 27 Dec 2020 10:48:10 +0800</pubDate>
+      
+      <guid>https://yhj123.github.io/hugoblog/oneweek/sunday/</guid>
+      <description>周日笔记 KMP算法 #define _CRT_SECURE_NO_DEPRECATE #include &amp;lt;iostream&amp;gt; #include &amp;lt;string&amp;gt; using namespace std; void Violentmatch(char *p, char *s) { //s与p的长度 int sLen = strlen(s); int pLen = strlen(p); //匹配过程 int i = 0; int j = 0; while (i &amp;lt; sLen&amp;amp;&amp;amp;j &amp;lt; pLen) { if (s[i] == p[j]) { i++; j++; } else { i = i - j + 1; j = 0; } } //匹配结果不同,返回结果不同 if (j == pLen) cout &amp;lt;&amp;lt; &amp;quot;匹配成功&amp;quot; &amp;lt;&amp;lt; endl; else cout &amp;lt;&amp;lt; &amp;quot;匹配失败&amp;quot; &amp;lt;&amp;lt; endl; } int main() { char* p = &amp;quot;ABCDABD&amp;quot;; char* s = &amp;quot;BBCABCDABABCDABCDABDE&amp;quot;; Violentmatch(p, s); } </description>
+    </item>
+    
     <item>
       <title>map与unordered_map区别</title>
       <link>https://yhj123.github.io/hugoblog/oneweek/saturday/</link>
